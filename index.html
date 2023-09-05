@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Peliculas</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body id="Todo">
+    <h1 id="titulo"> Buscador de peliculas</h1>
+    <hr> 
+    <meta charset=”utf-8″ />
+    <h2 id="Subtitulo">¡Encuentra tu pelicula favorita!</h2>
+        <!--Lista-->
+        <P>Aqui encontraras infromacion sobre las siguientes peliculas:</P>
+        <ul>
+            <li>El lobo de Wall Street </li>
+            <li>American Psycho</li>
+            <li>The Batman</li>
+            <li>Joker</li>
+            <li>Barbie</li>
+        </ul>
+    <h3>Aqui el personaje mas popular de cada pelicula y quien lo interpreto:</h3>
+        <!--Tabla-->
+        <table style="width: 500px;">
+            <tr>
+                <th class="tabla">Pelicula</th>
+                <th class="tabla">Personaje</th>
+                <th class="tabla">Actor</th>
+            </tr>
+            <tr>
+                <td>El lobo de Wall Street</td>
+                <td>Jordan Belford</td>
+                <td>Leonardo DiCaprio</td>
+            </tr>
+            <tr>
+                <td>American Psycho</td>
+                <td>Patrick Bateman</td>
+                <td>Christian Bale</td>
+            </tr>
+            <tr>
+                <td>The Batman</td>
+                <td>Robert Pattinson</td>
+                <td>Batman</td>   
+            </tr>
+            <tr>
+                <td>Joker</td>
+                <td>Joaquin Phoenix</td>
+                <td>Joker</td>
+            </tr>
+            <tr>
+                <td>Barbie</td>
+                <td>Ryan Gosling</td>
+                <td>Ken</td>
+            </tr>
+        </table>
+        <br>
+    <h3>Buscador</h3>
+        <!--Buscador-->
+        <label for="¿Sobre que pelicula deseas saber?"">¿Sobre que pelicula deseas saber?</label>
+        <input type="text" id="busqueda" name="¿Sobre que pelicula deseas saber?" placeholder="Nombre de la pelicula"/>
+        <button id="buscar" onclick="buscar()">Buscar</button>
+        
+       <div id="resultado">
+
+       </div>
+
+        <script src="main.js"></script>
+    
+    <h3>¿No encuentras la pelicula que buscas?</h3>
+    <p>Te invitamos a que uses nuestro buscador favorito:</p>
+    <a target= "_blank"href="https://www.google.com.mx/"> Buscador </a>
+    <br>
+    <footer id= "pie"> Tsunami Danae Martinez Trujillo, <a href="mailto:Tsuda700@gmail.com">Tsuda700@gmail.com</a> </footer>
+</body>
+</html>
